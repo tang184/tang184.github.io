@@ -1,0 +1,2286 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+html {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption,
+td,
+th {
+    text-align: left;
+    font-weight: 400;
+    vertical-align: middle
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: "";
+    content: none
+}
+
+a img {
+    border: none
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+
+/*!*position: fixed;*!*/
+
+
+/*!*background: #527ee3;*!*/
+
+
+/*!*background: url("https://dn-caicloudui.qbox.me/images/nav-bg-85c60c3076.png") no-repeat 0 0;*!*/
+
+
+/*!*background-size: cover;*!*/
+
+.center-box {
+    min-width: 1000px;
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.figCenter-400 {
+    width: 400px;
+    margin: 0 auto
+}
+
+.viewBox-top {
+    margin-top: 70px
+}
+
+.pageTitle {
+    font-size: 36px;
+    color: #323232;
+    font-weight: 700;
+    margin-bottom: 60px;
+    padding-bottom: 8px;
+    border-bottom: 10px solid #527ee3
+}
+
+.no-indent {
+    text-indent: 0
+}
+
+
+body {
+    background-color: #fff
+}
+
+body * {
+    font-family: "Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif"
+}
+
+body .homePage-panel {
+    width: 100%
+}
+
+body .homePage-panel section {
+    width: 100%;
+    margin-bottom: 80px
+}
+
+body .homePage-panel section .banner-panel {
+    width: 100%;
+    padding-bottom: 55.7%;
+    background: url(https://dn-caicloudui.qbox.me/images/banner-db496e46bc.png) center no-repeat;
+    background-size: cover;
+    position: relative
+}
+
+body .homePage-panel section .banner-panel .title-banner {
+    width: 100%;
+    height: 12.5%;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    background: url(https://dn-caicloudui.qbox.me/images/title-banner-c2e4bf5245.png) center no-repeat;
+    background-size: contain
+}
+
+@keyframes banneranimate {
+    0% {
+        background-position: 0 center
+    }
+    100% {
+        background-position: center center
+    }
+}
+
+body .homePage-panel section .banner-panel p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fff
+}
+
+body .homePage-panel section .banner-panel .text01-banner {
+    top: 45%;
+    font-size: 32px
+}
+
+body .homePage-panel section .banner-panel .text02-banner {
+    top: 52%;
+    font-size: 16px
+}
+
+body .homePage-panel section .banner-panel a {
+    display: block;
+    width: 100%;
+    height: 4%;
+    position: absolute;
+    background: url(https://dn-caicloudui.qbox.me/images/login-df122c2117.png) center no-repeat;
+    background-size: contain;
+    top: 62%
+}
+
+@media (max-width:1024px) {
+    body .homePage-panel section .banner-panel .text01-banner {
+        font-size: 28px
+    }
+    body .homePage-panel section .banner-panel .text02-banner {
+        font-size: 14px
+    }
+}
+
+@media (max-width:768px) {
+    body .homePage-panel section .banner-panel .text01-banner {
+        font-size: 20px
+    }
+    body .homePage-panel section .banner-panel .text02-banner {
+        font-size: 12px
+    }
+}
+
+@media (max-width:480px) {
+    body .homePage-panel section .banner-panel .text01-banner,
+    body .homePage-panel section .banner-panel .text02-banner {
+        display: none
+    }
+}
+
+.title-box {
+    width: 100%;
+    margin-bottom: 60px
+}
+
+.title-box .title-image {
+    margin-bottom: 30px;
+    background: url(https://dn-caicloudui.qbox.me/images/title-line-5131ae7545.png) center repeat-x
+}
+
+.title-box .title-image .title-imgbox {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 60px;
+    padding: 0 8px
+}
+
+.title-box .title-image .title-imgbox img {
+    display: block;
+    margin: 0 auto
+}
+
+.title-box h1 {
+    text-align: center;
+    font-family: "Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif";
+    font-size: 48px;
+    font-weight: 700
+}
+
+.title-box h1 span {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(https://dn-caicloudui.qbox.me/images/play-bc3b91f952.png) center no-repeat;
+    background-size: contain
+}
+
+.title-box p {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 10px
+}
+
+@media (max-width:768px) {
+    .title-box h1 {
+        font-size: 26px
+    }
+    .title-box h1 span {
+        width: 20px;
+        height: 20px
+    }
+    .title-box p {
+        font-size: 20px
+    }
+}
+
+body .homePage-panel section .content-first .col-md-5 {
+    position: relative
+}
+
+body .homePage-panel section .content-first .col-md-5 .animation-box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: url(https://dn-caicloudui.qbox.me/images/animation-1363f3e60e.png) center no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    transition: all 5s;
+    -webkit-transition: all 5s;
+    animation: homeanimate 25s linear infinite;
+    -webkit-animation: homeanimate 25s linear infinite
+}
+
+body .homePage-panel section .content-first .col-md-5 .video-box {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    margin-left: -25%;
+    width: 50%;
+    z-index: 1000
+}
+
+body .homePage-panel section .content-first .col-md-5 .video-box video {
+    width: 100%;
+    height: 100%
+}
+
+body .homePage-panel section .content-first .col-md-5 .video-box span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(https://dn-caicloudui.qbox.me/images/close-0e5e73312a.png) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10000
+}
+
+@media (max-width:1024px) {
+    body .homePage-panel section .content-first .col-md-5 .video-box span {
+        width: 12px;
+        height: 12px
+    }
+}
+
+@media (max-width:768px) {
+    body .homePage-panel section .content-first .col-md-5 .video-box {
+        width: 70%;
+        margin-left: -35%
+    }
+}
+
+@media (max-width:320px) {
+    body .homePage-panel section .content-first .col-md-5 .video-box {
+        width: 90%;
+        margin-left: -45%
+    }
+}
+
+@keyframes homeanimate {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@media (max-width:480px) {
+    body .homePage-panel section .content-first .col-md-5 .animation-box {
+        width: 200px;
+        height: 200px
+    }
+    body .homePage-panel section .content-first .col-md-5 .animation-box .animi {
+        width: 80px;
+        height: 80px
+    }
+}
+
+body .homePage-panel section .content-first .content-first-text p {
+    font-size: 14px;
+    line-height: 24px;
+    text-index: 32px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #646464
+}
+
+@media (max-width:480px) {
+    body .homePage-panel section .content-first .content-first-text p {
+        padding-left: 0;
+        padding-top: 40px
+    }
+}
+
+body .homePage-panel section .content-second .row dl {
+    margin-top: 20px
+}
+
+body .homePage-panel section .content-second .row dl dt {
+    height: 90px;
+    width: 78px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain
+}
+
+body .homePage-panel section .content-second .row dl .dt-img01 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/home-w-img01-4b262883f1.png)
+}
+
+body .homePage-panel section .content-second .row dl .dt-img02 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/home-w-img02-81727b3f03.png)
+}
+
+body .homePage-panel section .content-second .row dl .dt-img03 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/home-w-img03-99996dd599.png)
+}
+
+body .homePage-panel section .content-second .row dl .dt-img04 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/home-w-img04-a244f70496.png)
+}
+
+body .homePage-panel section .content-second .row dl .dt-img05 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/home-w-img05-0c13c33749.png)
+}
+
+body .homePage-panel section .content-second .row dl .dt-img06 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/home-w-img06-ca6f6b8d42.png)
+}
+
+body .homePage-panel section .content-second .row dl .dt-img01:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/home-b-img01-651c33901d.png)
+}
+
+body .homePage-panel section .content-second .row dl .dt-img02:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/home-b-img02-8720e0da1f.png)
+}
+
+body .homePage-panel section .content-second .row dl .dt-img03:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/home-b-img03-810a79369a.png)
+}
+
+body .homePage-panel section .content-second .row dl .dt-img04:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/home-b-img04-e2c2ecf60f.png)
+}
+
+body .homePage-panel section .content-second .row dl .dt-img05:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/home-b-img05-354e6320cf.png)
+}
+
+body .homePage-panel section .content-second .row dl .dt-img06:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/home-b-img06-5c58952b93.png)
+}
+
+body .homePage-panel section .content-second .row dl .dd-title {
+    font-family: "Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center
+}
+
+body .homePage-panel section .content-second .row dl .dd-text {
+    font-family: "Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif";
+    font-size: 14px;
+    text-align: justify;
+    color: #646464;
+    line-height: 24px
+}
+
+body .homePage-panel section .partner-box .partner {
+    flex-wrap: wrap;
+    display: -webkit-flex
+}
+
+body .homePage-panel section .partner-box .partner .p-box {
+    display: block;
+    width: 12.5%;
+    height: 36px;
+    margin-bottom: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+body .homePage-panel section .partner-box .partner .p-box01 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img01-93d9d6053d.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box02 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img02-7cfb4e4c61.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box03 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img03-d759be81f2.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box04 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img04-53b42bf709.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box05 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img05-80128e5542.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box06 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img06-fc07ce342f.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box07 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img07-353559b5a8.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box08 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img08-e31e2d3e8f.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box01:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img01-aff9c73f16.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box02:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img02-e44f5f5f9f.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box03:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img03-4d8052d9aa.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box04:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img04-ceefe54c3d.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box05:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img05-15bd5f001e.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box06:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img06-26fd58dc88.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box07:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img07-ad97f97aa1.png)
+}
+
+body .homePage-panel section .partner-box .partner .p-box08:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img08-68e2955ba1.png)
+}
+
+@media (max-width:768px) {
+    body .homePage-panel section .partner-box .partner .p-box {
+        width: 33.33%
+    }
+}
+
+body .homePage-panel .footer-panel {
+    margin-bottom: 0
+}
+
+body .homePage-panel .home-panel02 {
+    background-color: #f0f0f0;
+    padding: 100px 0
+}
+
+body .products-panel {
+    padding: 80px 0
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-dt {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-title {
+    padding: 20px 0 10px;
+    font-family: "Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif";
+    font-size: 18px;
+    color: #323232;
+    font-weight: 700;
+    text-align: center
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-text {
+    font-family: "Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 24px;
+    padding-bottom: 60px
+}
+
+body .about-panel section {
+    padding-top: 100px
+}
+
+body .about-panel section .container .row {
+    margin: 0
+}
+
+body .about-panel section .container .row .about-text-box {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+body .about-panel section .container .row .about-text-box p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-indent: 28px;
+    text-align: justify
+}
+
+@media (max-width:768px) {
+    body .about-panel section .container .row .about-text-box {
+        padding-top: 0
+    }
+}
+
+@media (max-width:640px) {
+    body .about-panel section .container .row .img-1-box {
+        padding: 0
+    }
+    body .about-panel section .container .row .about-text-box {
+        padding-top: 20px;
+        padding-left: 0
+    }
+}
+
+body .about-panel section .container .row .img-env {
+    margin-bottom: 20px
+}
+
+@media (max-width:640px) {
+    body .about-panel section .container .row .img-env {
+        padding: 0
+    }
+}
+
+body .about-panel section .container .row .about-bg {
+    background-color: #96b5dd;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    overflow: hidden
+}
+
+body .about-panel section .container .row .about-bg .left-about .team-img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background-size: contain;
+    border-radius: 50%;
+    box-shadow: #ddd 2px 2px 2px
+}
+
+body .about-panel section .container .row .about-bg .left-about .img-zhang {
+    background: url(https://dn-caicloudui.qbox.me/images/zhang-fd5d7bd19e.png) center no-repeat
+}
+
+body .about-panel section .container .row .about-bg .left-about .img-deng {
+    background: url(https://dn-caicloudui.qbox.me/images/deng-fa0bd13b2d.png) center no-repeat
+}
+
+body .about-panel section .container .row .about-bg .left-about .img-han {
+    background: url(https://dn-caicloudui.qbox.me/images/han-b01c45f369.png) center no-repeat
+}
+
+body .about-panel section .container .row .about-bg .left-about .img-tang {
+    background: url(https://dn-caicloudui.qbox.me/images/tang-c5076fc364.png) center no-repeat
+}
+
+body .about-panel section .container .row .about-bg .left-about .img-zheng {
+    background: url(https://dn-caicloudui.qbox.me/images/zheng-7403fd262c.png) center no-repeat
+}
+
+body .about-panel section .container .row .about-bg .left-about h1 {
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px
+}
+
+body .about-panel section .container .row .about-bg .left-about p {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+body .about-panel section .container .row .about-bg .right-about p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+    text-indent: 28px
+}
+
+body .about-panel section .container .row .about-bg .right-about .p-space {
+    margin-top: 20px
+}
+
+@media (max-width:640px) {
+    body .about-panel section .container .row .about-bg {
+        padding: 40px 10px
+    }
+}
+
+body .about-panel .banner-about {
+    padding-top: 0;
+    position: relative
+}
+
+body .about-panel .banner-about .banner-about-text {
+    position: absolute;
+    left: 15%;
+    top: 75%
+}
+
+body .about-panel .banner-about .banner-about-text p {
+    color: #fff;
+    line-height: 20px;
+    font-size: 12px
+}
+
+body .about-panel .about-panel01,
+body .about-panel .develop-panel {
+    padding-bottom: 100px
+}
+
+body .about-panel .develop-panel .container .develop-left {
+    box-sizing: border-box;
+    padding-right: 40px;
+    float: left;
+    width: 40%;
+    text-align: right;
+    position: relative
+}
+
+body .about-panel .develop-panel .container .develop-left p {
+    height: 80px;
+    padding-top: 5px;
+    font-size: 12px;
+    color: #646464;
+    line-height: 16px
+}
+
+body .about-panel .develop-panel .container .develop-left p strong {
+    color: #323232;
+    font-weight: 700;
+    font-size: 14px
+}
+
+body .about-panel .develop-panel .container .develop-left span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: -20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain
+}
+
+body .about-panel .develop-panel .container .develop-left .span-line {
+    width: 1px;
+    height: 480px;
+    background-color: #ddd;
+    border-radius: 0;
+    right: 0;
+    top: 20px
+}
+
+body .about-panel .develop-panel .container .develop-left .span-01 {
+    top: 0;
+    background-image: url(https://dn-caicloudui.qbox.me/images/develop-01-ad38f1bfcb.png)
+}
+
+body .about-panel .develop-panel .container .develop-left .span-02 {
+    top: 80px;
+    background-image: url(https://dn-caicloudui.qbox.me/images/develop-04-1217d952b0.png)
+}
+
+body .about-panel .develop-panel .container .develop-left .span-03 {
+    top: 160px;
+    background-image: url(https://dn-caicloudui.qbox.me/images/develop-04-1217d952b0.png)
+}
+
+body .about-panel .develop-panel .container .develop-left .span-04 {
+    top: 240px;
+    background-image: url(https://dn-caicloudui.qbox.me/images/develop-02-860ab88675.png)
+}
+
+body .about-panel .develop-panel .container .develop-left .span-05 {
+    top: 320px;
+    background-image: url(https://dn-caicloudui.qbox.me/images/develop-04-1217d952b0.png)
+}
+
+body .about-panel .develop-panel .container .develop-left .span-06 {
+    top: 400px;
+    background-image: url(https://dn-caicloudui.qbox.me/images/develop-02-860ab88675.png)
+}
+
+body .about-panel .develop-panel .container .develop-left .span-07 {
+    top: 480px;
+    background-image: url(https://dn-caicloudui.qbox.me/images/develop-03-db88954304.png)
+}
+
+body .about-panel .develop-panel .container .develop-right {
+    box-sizing: border-box;
+    padding-left: 40px;
+    float: right;
+    width: 60%
+}
+
+body .about-panel .develop-panel .container .develop-right p {
+    height: 80px;
+    padding-top: 5px;
+    font-size: 12px;
+    color: #646464;
+    line-height: 16px
+}
+
+body .about-panel .develop-panel .container .develop-right p strong {
+    color: #323232;
+    font-weight: 700;
+    font-size: 14px
+}
+
+body .about-panel .img-panel {
+    background-color: #f0f0f0;
+    padding: 100px 0;
+    position: relative
+}
+
+body .about-panel .img-panel .img-view {
+    width: 1122px;
+    height: 270px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative
+}
+
+body .about-panel .img-panel .img-view .img-box {
+    width: 2618px;
+    height: 272px
+}
+
+body .about-panel .img-panel .img-view .img-box img {
+    display: block;
+    float: left;
+    margin-left: 10px
+}
+
+body .about-panel .img-panel .img-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 70px;
+    margin-left: -50px
+}
+
+body .about-panel .img-panel .img-btn li {
+    width: 10px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer
+}
+
+body .about-panel .img-panel .img-btn .current {
+    background-color: #96b5dd
+}
+
+body .about-panel .img-panel span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: 20px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    background-color: #fff;
+    cursor: pointer
+}
+
+body .about-panel .img-panel .span-left {
+    margin-left: -242px
+}
+
+body .about-panel .img-panel .span-right {
+    margin-left: 192px
+}
+
+body .about-panel section:last-child {
+    padding-bottom: 60px
+}
+
+body #blog-page {
+    margin: 0
+}
+
+body #blog-page .banner-box {
+    width: 100%;
+    height: 820px;
+    overflow: visible;
+    position: relative
+}
+
+body #blog-page .banner-box img {
+    width: 832px;
+    position: absolute;
+    bottom: -98px;
+    left: 50%;
+    margin-left: -383px
+}
+
+body #blog-page .banner-box .anBox {
+    width: 100%;
+    height: 12.5%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    background: url(https://dn-caicloudui.qbox.me/images/title-banner01-77bb82dd36.png) center no-repeat;
+    background-size: contain;
+    animation: wbTitle 2s forwards;
+    -webkit-animation: wbTitle 2s forwards;
+    -moz-animation: wbTitle 2s forwards;
+    -o-animation: wbTitle 2s forwards
+}
+
+@media (max-width:768px) {
+    body #blog-page .banner-box .anBox {
+        top: 15%
+    }
+}
+
+.blog-panel {
+    margin-top: 180px
+}
+
+body #blog-page .blog-panel .container .row .news-box table {
+    margin-bottom: 20px;
+    margin-left: -30px
+}
+
+body #blog-page .blog-panel .container .row .news-box table tr td {
+    padding-bottom: 40px
+}
+
+body #blog-page .blog-panel .container .row .news-box table tr td .td-left {
+    padding-bottom: 10px
+}
+
+body #blog-page .blog-panel .container .row .news-box table tr td .td-left .image-box {
+    width: 100%
+}
+
+body #blog-page .blog-panel .container .row .news-box table tr td .td-right {
+    padding: 0 10px 0 0;
+    vertical-align: top
+}
+
+body #blog-page .blog-panel .container .row .news-box table tr td .td-right a {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #323232;
+    line-height: 24px
+}
+
+body #blog-page .blog-panel .container .row .news-box table tr td .td-right time a {
+    font-size: 14px;
+    color: #96b5dd;
+    margin-top: 5px
+}
+
+body #blog-page .blog-panel .container .row .news-box table tr td .td-right time {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+@media (max-width:1024px) {
+    body #blog-page .blog-panel .container .row .news-box table tr td .td-right time {
+        margin-bottom: 20px
+    }
+}
+
+body #blog-page .blog-panel .container .row .news-box table tr td .td-right p,
+body #blog-page .blog-panel .container .row .news-box table tr td .td-right time {
+    color: #646464;
+    font-size: 14px
+}
+
+body #blog-page .blog-panel .container .row .news-box table tr td .td-right p {
+    line-height: 24px;
+    text-align: justify
+}
+
+body #blog-page .blog-panel .container .row .newsSidebar {
+    padding-bottom: 40px
+}
+
+body #blog-page .blog-panel .container .row .newsSidebar .row {
+    padding-bottom: 40px;
+    margin: 0
+}
+
+body #blog-page .blog-panel .container .row .newsSidebar .row input {
+    width: 80%;
+    height: 30px;
+    float: left
+}
+
+body #blog-page .blog-panel .container .row .newsSidebar .row span {
+    display: block;
+    width: 15%;
+    height: 30px;
+    float: left;
+    cursor: pointer;
+    background-image: url(https://dn-caicloudui.qbox.me/images/search01-62c8e8832d.png);
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+body #blog-page .blog-panel .container .row .newsSidebar h6 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #323232;
+    margin-bottom: 15px
+}
+
+body #blog-page .blog-panel .container .row .newsSidebar a {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #96b5dd;
+    line-height: 24px;
+    padding-bottom: 10px
+}
+
+body #blog-page .blog-panel .container .row .newsSidebar a:hover {
+    color: #909090
+}
+
+@keyframes wbTitle {
+    from {
+        background-position: 0 center
+    }
+    to {
+        background-position: center
+    }
+}
+
+body #blog-page .blog-panel .container .row .news-box article {
+    padding-bottom: 40px
+}
+
+body #blog-page .blog-panel .container .row .news-box article h1 {
+    font-size: 28px;
+    color: #323232;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px
+}
+
+body #blog-page .blog-panel .container .row .news-box article h2 {
+    font-size: 16px;
+    color: #323232;
+    font-weight: 700;
+    padding: 5px 0;
+    margin-bottom: 10px
+}
+
+.mar-bottom10 {
+    margin-bottom: 10px
+}
+
+body #blog-page .blog-panel .container .row .news-box article figure img {
+    display: block;
+    margin: 0 auto
+}
+
+article video {
+    margin-left: 90px;
+    margin-bottom: 20px
+}
+
+body #blog-page .blog-panel .container .row .news-box article figure figcaption {
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+body #blog-page .blog-panel .container .row .news-box article .text-blue {
+    color: #527ee3
+}
+
+body #blog-page .blog-panel .container .row .news-box article .text-bg-grey {
+    background-color: #d3d3d3
+}
+
+body #blog-page .blog-panel .container .row .news-box article .text-bold {
+    font-weight: 700
+}
+
+body #blog-page .blog-panel .container .row .news-box article p {
+    text-align: justify;
+    font-size: 14px;
+    text-indent: 28px;
+    margin-bottom: 20px;
+    line-height: 24px
+}
+
+body #blog-page .blog-panel .container .row .news-box article .no-indent {
+    text-indent: 0
+}
+
+body #blog-page .blog-panel .container .row .news-box article .img-box {
+    width: 100%;
+    padding-bottom: 50%;
+    background: url(https://dn-caicloudui.qbox.me/images/wb-news01-bc6a408b70.jpg) center no-repeat;
+    background-size: cover;
+    margin-bottom: 30px
+}
+
+#blog-page article p {
+    color: #646464
+}
+
+#blog-page .news-img {
+    margin-bottom: 20px;
+    overflow: hidden
+}
+
+#blog-page .news-img img {
+    display: block;
+    margin: 0 auto
+}
+
+#blog-page article h6 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #323232;
+    font-weight: 700;
+    font-size: 18px
+}
+
+#blog-page article h1 {
+    line-height: 40px
+}
+
+#blog-page article b {
+    color: #323232;
+    font-weight: 700
+}
+
+body .footer-panel {
+    background-color: #527ee3;
+    padding: 40px 0
+}
+
+body .footer-panel .footer-dl dt {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff
+}
+
+body .footer-panel .footer-dl dd {
+    color: #f6f6f6;
+    font-size: 12px;
+    padding: 5px 0;
+    margin-bottom: 10px
+}
+
+body .footer-panel .footer-dl dd a {
+    color: #f6f6f6
+}
+
+body .footer-panel .footer-dl dd a:hover {
+    color: #ddd
+}
+
+body .footer-panel .footer-dl .footer-icon {
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 0 center
+}
+
+body .footer-panel .footer-dl .footer-icon01 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/foot-icon01-5ba54af40c.png)
+}
+
+body .footer-panel .footer-dl .footer-icon02 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/foot-icon02-5960875261.png)
+}
+
+body .footer-panel .footer-dl .footer-icon03 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/foot-icon03-d1696bfad2.png)
+}
+
+body .footer-panel .footer-dl .footer-dd-img {
+    width: 90px
+}
+
+@media (max-width:640px) {
+    body .footer-panel .footer-dl {
+        margin-top: 40px
+    }
+    body .footer-panel .footer-dl dt {
+        margin-bottom: 25px
+    }
+    body .footer-panel .footer-dl dd {
+        line-height: 16px
+    }
+    body .footer-panel .footer-dl:first-child {
+        margin-top: 0
+    }
+}
+
+body .footer-panel .register {
+    padding: 60px 0 20px;
+    font-size: 12px;
+    color: #f6f6f6
+}
+
+
+@-webkit-keyframes navMove {
+    0% {
+        opacity: 0;
+        top: -70px
+    }
+    100% {
+        opacity: 1;
+        top: 0
+    }
+}
+
+@-moz-keyframes navMove {
+    0% {
+        opacity: 0;
+        top: -70px
+    }
+    100% {
+        opacity: 1;
+        top: 0
+    }
+}
+
+@-o-keyframes navMove {
+    0% {
+        opacity: 0;
+        top: -70px
+    }
+    100% {
+        opacity: 1;
+        top: 0
+    }
+}
+
+@keyframes navMove {
+    0% {
+        opacity: 0;
+        top: -70px
+    }
+    100% {
+        opacity: 1;
+        top: 0
+    }
+}
+
+
+
+
+section {
+    min-width: 1000px;
+    overflow: hidden
+}
+
+.banner-content {
+    position: relative
+}
+
+.banner-content img {
+    display: block;
+    margin: 80px auto 0
+}
+
+.content-title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px
+}
+
+.banner-content p {
+    color: #fff;
+    font-size: 70px;
+    text-align: center
+}
+
+.banner-content p:last-child {
+    font-size: 24px;
+    margin-top: 20px
+}
+
+.section02,
+.section04 {
+    background: #f2f4f9
+}
+
+.section-row {
+    position: relative;
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1200px;
+    height: 440px
+}
+
+.text {
+    width: 42.33%;
+    position: absolute
+}
+
+.text dt {
+    font-size: 36px;
+    color: #323232
+}
+
+.text dd {
+    font-size: 18px;
+    color: #909090;
+    line-height: 26px;
+    margin-top: 24px
+}
+
+.picture {
+    position: absolute
+}
+
+.section01 .text {
+    left: 5%;
+    top: 150px;
+    opacity: 0
+}
+
+.section01 .picture {
+    right: 7%;
+    top: 72px;
+    opacity: 0
+}
+
+.section02 .picture {
+    left: 5%;
+    top: 85px;
+    opacity: 0
+}
+
+.section02 .text {
+    right: 7%;
+    top: 125px;
+    opacity: 0
+}
+
+.section03 .text {
+    left: 5%;
+    top: 150px;
+    opacity: 0
+}
+
+.section03 .picture {
+    right: 7%;
+    top: 53px;
+    opacity: 0
+}
+
+.section04 .picture {
+    left: 5%;
+    top: 78px;
+    opacity: 0
+}
+
+.section04 .text {
+    right: 7%;
+    top: 150px;
+    opacity: 0
+}
+
+.leftAnimation {
+    animation: fadeInLeft 1s forwards;
+    -webkit-animation: fadeInLeft 1s forwards;
+    -moz-animation: fadeInLeft 1s forwards;
+    -o-animation: fadeInLeft 1s forwards
+}
+
+.rightAnimation {
+    animation: fadeInRight 1s forwards;
+    -webkit-animation: fadeInRight 1s forwards;
+    -moz-animation: fadeInRight 1s forwards;
+    -o-animation: fadeInRight 1s forwards
+}
+
+.section05 h2 {
+    margin-top: 120px;
+    font-size: 36px;
+    text-align: center
+}
+
+.section05 .section-row {
+    height: 300px
+}
+
+.partner {
+    overflow: hidden;
+    margin-top: 60px
+}
+
+.partner a {
+    display: block;
+    width: 10%;
+    height: 60px;
+    float: left;
+    margin-left: 2.5%
+}
+
+.partner>:first-child {
+    margin-left: 1.25%
+}
+
+.partner-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain
+}
+
+.partner01 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img01-93d9d6053d.png)
+}
+
+.partner02 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img02-7cfb4e4c61.png)
+}
+
+.partner03 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img03-d759be81f2.png)
+}
+
+.partner04 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img04-53b42bf709.png)
+}
+
+.partner05 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img05-80128e5542.png)
+}
+
+.partner06 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img06-fc07ce342f.png)
+}
+
+.partner07 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img07-353559b5a8.png)
+}
+
+.partner08 {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-b-img08-e31e2d3e8f.png)
+}
+
+.partner01:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img01-aff9c73f16.png)
+}
+
+.partner02:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img02-e44f5f5f9f.png)
+}
+
+.partner03:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img03-4d8052d9aa.png)
+}
+
+.partner04:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img04-ceefe54c3d.png)
+}
+
+.partner05:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img05-15bd5f001e.png)
+}
+
+.partner06:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img06-26fd58dc88.png)
+}
+
+.partner07:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img07-ad97f97aa1.png)
+}
+
+.partner08:hover {
+    background-image: url(https://dn-caicloudui.qbox.me/images/partner-img08-68e2955ba1.png)
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-moz-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-o-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(200px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(200px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-moz-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(200px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@-o-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(200px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+#productView .banner-box .titleBox {
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    color: #fff
+}
+
+#productView .products-panel .title-box {
+    margin-bottom: 30px
+}
+
+#productView .titleBox p {
+    width: 100%;
+    font-size: 87px;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+#productView .titleBox span {
+    display: block;
+    width: 100%;
+    font-size: 43px;
+    text-align: center
+}
+
+.product-responsive {
+    display: block;
+    margin: 290px auto 0
+}
+
+.pro-body {
+    padding: 0 0 10px;
+    width: 100%;
+    display: table;
+    text-align: center
+}
+
+.pro-body-middle {
+    background-color: #eee
+}
+
+.pro-body .pro-sort {
+    display: inline-block;
+    width: 22%;
+    text-align: center;
+    color: #5d626e;
+    vertical-align: top;
+    position: relative;
+    transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out
+}
+
+.pro-body .pro-sort .bottom,
+.pro-body .pro-sort .top {
+    display: none
+}
+
+.pro-body .pro-sort .pro-name {
+    transform: perspective(800px) rotateX(0deg);
+    -o-transform: perspective(800px) rotateX(0deg);
+    -webkit-transform: perspective(800px) rotateX(0deg);
+    -ms-transform: perspective(800px) rotateX(0deg);
+    transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    padding: 50px 0;
+    font-size: 14px;
+    opacity: 1
+}
+
+.pro-body .pro-sort .pro-word {
+    width: 100%;
+    background-color: #618ce6;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    height: 234px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    transform: perspective(800px) rotateX(-180deg);
+    -o-transform: perspective(800px) rotateX(-180deg);
+    -ms-transform: perspective(800px) rotateX(-180deg);
+    -webkit-transform: perspective(800px) rotateX(-180deg);
+    opacity: 0;
+    display: none / 9
+}
+
+.pro-body .pro-sort .pro-word .pro-title {
+    border-bottom: 3px solid #fff;
+    padding: 20px 0
+}
+
+.pro-body .pro-sort:hover .pro-name {
+    transform: perspective(800px) rotateX(-180deg);
+    -o-transform: perspective(800px) rotateX(-180deg);
+    -ms-transform: perspective(800px) rotateX(-180deg);
+    -webkit-transform: perspective(800px) rotateX(-180deg);
+    display: none / 9;
+    opacity: 0;
+    text-align: center
+}
+
+.pro-body .pro-sort:hover .pro-word {
+    transform: perspective(800px) rotateX(0deg);
+    -o-transform: perspective(800px) rotateX(0deg);
+    -ms-transform: perspective(800px) rotateX(0deg);
+    -webkit-transform: perspective(800px) rotateX(0deg);
+    display: block / 9;
+    opacity: 1
+}
+
+.pro-body .pro-sort .pro-word .detail-word {
+    padding: 20px;
+    text-align: left;
+    line-height: 1.5em
+}
+
+.pro-intro {
+    padding-bottom: 20px;
+    width: 80px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bolder
+}
+
+.pro-body .pro-sort .pro-name .pro-intro i {
+    width: 90px;
+    height: 90px;
+    display: block
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-icon1 {
+    background: url(https://dn-caicloudui.qbox.me/images/pro-img-1-49ec613384.png) center no-repeat
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-icon2 {
+    background: url(https://dn-caicloudui.qbox.me/images/pro-img-2-697b2e289a.png) center no-repeat
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-icon3 {
+    background: url(https://dn-caicloudui.qbox.me/images/pro-img-3-e9520cf0e4.png) center no-repeat
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-icon4 {
+    background: url(https://dn-caicloudui.qbox.me/images/pro-img-4-6e3a34de12.png) center no-repeat
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-icon5 {
+    background: url(https://dn-caicloudui.qbox.me/images/pro-img-5-540a4aaf85.png) center no-repeat
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-icon6 {
+    background: url(https://dn-caicloudui.qbox.me/images/pro-img-6-df3647b9f8.png) center no-repeat
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-icon7 {
+    background: url(https://dn-caicloudui.qbox.me/images/pro-img-7-a3d9a8dd70.png) center no-repeat
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-icon8 {
+    background: url(https://dn-caicloudui.qbox.me/images/pro-img-8-74c126ea2b.png) center no-repeat
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-icon9 {
+    background: url(https://dn-caicloudui.qbox.me/images/pro-img-9-e42c78a53c.png) center no-repeat
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-icon10 {
+    background: url(https://dn-caicloudui.qbox.me/images/pro-img-10-5cfdea4eb4.png) center no-repeat
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-icon11 {
+    background: url(https://dn-caicloudui.qbox.me/images/pro-img-11-7311c14b4d.png) center no-repeat
+}
+
+.pro-body .pro-sort .pro-name .pro-intro .pro-icon12 {
+    background: url(https://dn-caicloudui.qbox.me/images/pro-img-12-9c71d1fc49.png) center no-repeat
+}
+
+
+.circle1,
+.circle2 {
+    position: absolute
+}
+
+.circle1 {
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    border: 4px solid #8CCEEB;
+    top: -30px;
+    left: -30px;
+    -webkit-animation: warn 2s ease-out;
+    -moz-animation: warn 2s ease-out;
+    animation: warn 2s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.circle2 {
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    border: 4px solid #8CCEEB;
+    top: -40px;
+    left: -40px;
+    -webkit-animation: warn1 2.5s ease-out;
+    -moz-animation: warn1 2.5s ease-out;
+    animation: warn1 2.5s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+@keyframes warn {
+    0% {
+        transform: scale(.2);
+        opacity: 0
+    }
+    25% {
+        transform: scale(.4);
+        opacity: .4
+    }
+    50% {
+        transform: scale(.6);
+        opacity: .1
+    }
+    75% {
+        transform: scale(.8);
+        opacity: .4
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0
+    }
+}
+
+@keyframes warn1 {
+    0% {
+        transform: scale(.2);
+        opacity: 0
+    }
+    25% {
+        transform: scale(.4);
+        opacity: .4
+    }
+    50% {
+        transform: scale(.6);
+        opacity: .1
+    }
+    75% {
+        transform: scale(.8);
+        opacity: .4
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0
+    }
+}
+
+.rollLeft {
+    animation: roll-left 1s forwards
+}
+
+@keyframes roll-left {
+    0% {
+        transform: translateX(-80%);
+        opacity: 0
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+.rollRight {
+    animation: roll-right 1s forwards
+}
+
+@keyframes roll-right {
+    0% {
+        transform: translateX(80%);
+        opacity: 0
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+.banner-about {
+    height: 820px;
+    background: url(https://dn-caicloudui.qbox.me/images/banner-bg-18f4186bb3.png) center no-repeat
+}
+
+.banner-about img {
+    width: 80%;
+    height: 80%;
+    margin: 100px auto 0
+}
+
+.about-us {
+    width: 1280px;
+    height: 600px;
+    background-image: url(https://dn-caicloudui.qbox.me/images/about-line-2503bc7f41.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 60%;
+    background-color: #f0f8fc;
+    padding: 100px 0;
+    overflow: initial
+}
+
+.about-us .member-info {
+    position: relative;
+    height: 80%;
+    width: 70%;
+    margin: 0 auto
+}
+
+.about-us h1 {
+    text-align: center;
+    font-size: 48px
+}
+
+.about-us .member-info .pers-1,
+.about-us .member-info .pers-2,
+.about-us .member-info .pers-3,
+.about-us .member-info .pers-4,
+.about-us .member-info .pers-5 {
+    position: absolute;
+    cursor: pointer
+}
+
+.about-us .member-info .pers-1 {
+    top: 40%;
+    left: 8%
+}
+
+.about-us .member-info .pers-2 {
+    top: 28%;
+    left: 25.5%
+}
+
+.about-us .member-info .pers-3 {
+    top: 44%;
+    left: 43%
+}
+
+.about-us .member-info .pers-4 {
+    top: 19%;
+    left: 60.5%
+}
+
+.about-us .member-info .pers-5 {
+    top: 27%;
+    left: 78%
+}
+
+.about-us .member-info dd {
+    margin-bottom: 30px
+}
+
+.about-us .member-info dd,
+.about-us .member-info dt {
+    text-align: center
+}
+
+.about-us .member-info .pers-1 .per-info,
+.about-us .member-info .pers-2 .per-info,
+.about-us .member-info .pers-3 .per-info,
+.about-us .member-info .pers-4 .per-info,
+.about-us .member-info .pers-5 .per-info {
+    background-color: #527ee3;
+    border-radius: 5px;
+    position: absolute;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    text-indent: 2em;
+    font-size: 13px;
+    line-height: 1.5em;
+    z-index: 99;
+    color: #fff;
+    left: -100%;
+    top: -180%;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+    transform: scale(0)
+}
+
+.about-us .member-info .pers-3 .per-info,
+.about-us .member-info .pers-4 .per-info {
+    top: -100%
+}
+
+.about-us .member-info .pers-1:hover .per-info,
+.about-us .member-info .pers-2:hover .per-info,
+.about-us .member-info .pers-3:hover .per-info,
+.about-us .member-info .pers-4:hover .per-info,
+.about-us .member-info .pers-5:hover .per-info {
+    transform: scale(1);
+    opacity: 1
+}
+
+.info-show {
+    display: block;
+    animation: infoShow 1s linear
+}
+
+@keyframes infoShow {
+    from {
+        transform: scale(0);
+        opacity: 0;
+        display: none
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+        display: block
+    }
+}
+
+.team {
+    width: 100%;
+    padding: 0!important
+}
+
+.team01,
+.team03,
+.team05 {
+    background-color: #eef4fe
+}
+
+.team01 h1 {
+    font-size: 36px;
+    color: #323232;
+    font-weight: 700;
+    margin-top: 64px;
+    margin-bottom: 50px
+}
+
+.team-box {
+    min-width: 1000px;
+    max-width: 1200px;
+    height: 440px;
+    margin: 0 auto
+}
+
+.team-box img {
+    margin-top: 40px
+}
+
+.team01 dl {
+    margin-top: 92px
+}
+
+.team02 dl {
+    margin-top: 82px
+}
+
+.team03 dl {
+    margin-top: 148px
+}
+
+.team04 dl {
+    margin-top: 112px
+}
+
+.team05 dl {
+    margin-top: 92px
+}
+
+.team-box dl {
+    width: 60%
+}
+
+.team-box dl dt {
+    font-size: 24px;
+    margin-bottom: 30px
+}
+
+.team-box dl dd {
+    font-size: 14px;
+    line-height: 20px;
+    color: #646464
+}
+
+.team-box dl dd p {
+    margin-bottom: 10px;
+    text-indent: 28px
+}
+
+.team .left {
+    float: left;
+    margin-left: 10%;
+    opacity: 0
+}
+
+.team .right {
+    float: right;
+    margin-right: 10%;
+    opacity: 0
+}
+
+.job-box .center-box {
+    height: 440px
+}
+
+.job02,
+.job04 {
+    background-color: #eef4fe
+}
+
+.job-info {
+    width: 40%
+}
+
+.job01 .job-info,
+.job02 .job-info,
+.job03 .job-info {
+    margin-top: 108px
+}
+
+.job04 .job-info,
+.job05 .job-info {
+    margin-top: 68px
+}
+
+.job-left {
+    float: left;
+    margin-left: 5%;
+    opacity: 0
+}
+
+.job-right {
+    float: right;
+    margin-right: 5%;
+    opacity: 0
+}
+
+.job-info dl {
+    margin-bottom: 20px
+}
+
+.job-info dl dt {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #323232
+}
+
+.job-info dl dd {
+    font-size: 14px;
+    color: #909090;
+    line-height: 20px
+}
+
+.banner-k8s {
+    height: 100%;
+    min-height: 820px;
+    max-height: 1130px;
+    position: relative;
+    background: url(https://dn-caicloudui.qbox.me/images/banner-k8s-ab407b63a3.png) center no-repeat
+}
+
+.banner-k8s .titleBox {
+    margin-top: 180px;
+    color: #fff
+}
+
+#productView .banner-k8s .titleBox p {
+    margin-bottom: 100px
+}
+
+#productView .banner-k8s .titleBox span {
+    font-size: 30px;
+    color: #f0f0f0;
+    margin-bottom: 20px
+}
+
+.k8s-panel .center-box .title-box {
+    margin-top: 60px;
+    margin-bottom: 30px
+}
+
+.introduced {
+    overflow: hidden
+}
+
+.introduced dd,
+.introduced dt {
+    float: left
+}
+
+.introduced dt img {
+    display: block;
+    margin-top: 40px
+}
+
+.introduced dd {
+    width: 650px;
+    font-size: 16px;
+    color: #646464;
+    margin-left: 50px
+}
+
+.introduced dd p {
+    line-height: 28px
+}
+
+.text-indent {
+    text-indent: 32px
+}
+
+.title-b {
+    color: #323232;
+    font-size: 18px;
+    font-weight: 700
+}
+
+.k8sTd-left {
+    text-align: right;
+    width: 48%;
+    padding-right: 30px
+}
+
+.k8s-table {
+    margin-bottom: 60px
+}
+
+.k8s-table tr td {
+    padding-top: 10px;
+    padding-bottom: 10px
+}

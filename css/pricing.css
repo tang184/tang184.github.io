@@ -1,0 +1,188 @@
+
+.free {
+    float: left;
+    margin: 20px 0;
+    background: url(
+    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAIfP378zwjjgzj8/PyMYAEYB8RmROaABAAVMg/XkcvroQAAAABJRU5ErkJggg==) repeat;
+
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+    border: 1px solid #1d6391;
+    border-bottom: 10px solid #1d6391;
+
+}
+
+.pricing-table strong {
+    font-weight: 700;
+    color: #3d3d3d;
+}
+
+.pricing-table-header-tiny {
+    padding: 5px 0 5px 0;
+    background: #1d6391;
+    border-bottom: 10px solid #00355D;
+}
+
+.pricing-table-header-tiny h2, .pricing-table-header-small h2, .pricing-table-header-medium h2, .pricing-table-header-pro h2 {
+    font-weight: 700;
+    color: #FFF;
+}
+
+.pricing-table-header-tiny h3, .pricing-table-header-small h3, .pricing-table-header-medium h3, .pricing-table-header-pro h3 {
+    font-weight: 500;
+    color: #FFF;
+}
+
+.pricing-table-text {
+    margin: 15px 30px 0 30px;
+    padding: 0 10px 15px 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    line-height: 30px;
+    font-size: 16px;
+    color: #888;
+}
+
+.pricing-table-features {
+    margin: 15px 10px 0 10px;
+    padding: 5px 20px 5px;
+    border-bottom: 1px dashed #888;
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    min-height: 200px;
+    color: #808080;
+}
+
+.pricing-table-features>p {
+    font-weight: 500;
+}
+
+.pricing-table-features>p>strong {
+    font-weight: 900;
+}
+.pricing-table-signup-tiny {
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+
+.pricing-table-signup-tiny a {
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+    background: #1d6391;
+    line-height: 50px;
+
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.pricing-table-signup-tiny a:hover {
+    text-decoration: none;
+    background: #00355D;
+    color: #fff;
+
+}
+
+.pricing-table-signup-tiny a:active {
+    background: #00355D;
+    color: #fff;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+.space {
+    margin: 10px;
+}
+
+.row .span3 {
+    width: 22%;
+}
+
+.row [class*="span"] {
+    display: block;
+    float: left;
+    width:  22%;
+    min-height: 30px;
+    margin-left: 2.5%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 580px){
+    .row .span3 {
+        width: 94%;
+    }
+}
+
+#features {
+    padding: 10px;
+}
+
+#features>.table {
+    margin: 0 0 10px 0;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: table;
+}
+@media screen and (max-width: 580px) {
+    #features>.table {
+        display: block;
+    }
+}
+
+#features>.table>.row {
+    display: table-row;
+    background: #f6f6f6;
+}
+#features>.table>.row:nth-of-type(odd) {
+    background: #e9e9e9;
+}
+
+#features>.table>.row.blue {
+    background: #00355D;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 20px;
+    min-height: 40px;
+}
+@media screen and (max-width: 580px) {
+    #features>.table>.row {
+        padding: 8px 0;
+        display: block;
+    }
+}
+
+.cell {
+    text-align: left;
+    padding: 6px 6px 6px 30px;
+    display: table-cell;
+}
+@media screen and (max-width: 580px) {
+    .cell {
+        padding: 2px 12px;
+        display: block;
+    }
+}
+
+#features>.table>.row>.cell{
+    font-weight: 500;
+}
+#features>.table>.row>.cell>strong{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#features {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    min-height: 500px;
+}
+
+#features h3 {
+    padding-bottom: 25px;
+}

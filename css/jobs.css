@@ -1,0 +1,183 @@
+body .jobs-panel .img-responsive {
+    margin: 10% auto 0
+}
+
+body .jobs-panel .banner-title {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px
+}
+
+body .jobs-panel .banner-title p {
+    width: 17%;
+    text-align: left;
+    margin: 0 auto;
+    padding: 5px 0
+}
+
+body .jobs-panel .banner-title strong {
+    font-size: 34px;
+    font-weight: bolder;
+    color: #d58512;
+    text-shadow: 2px 2px 1px #ddd;
+    margin-top: 5px
+}
+
+body .jobs-panel .job-main .row {
+    margin: 0;
+    padding: 20px 0;
+    position: relative
+}
+
+body .jobs-panel .job-main .row-2 {
+    background-color: RGB(240, 240, 240)
+}
+
+body .jobs-panel .job-main .row-2 .part-1 {
+    text-align: left
+}
+
+body .jobs-panel .job-main .row-point {
+    position: absolute;
+    width: 100%;
+    bottom: -35px;
+    z-index: 99
+}
+
+body .jobs-panel .row-point img {
+    display: block;
+    width: 98px;
+    height: 36px;
+    margin: 0 auto
+}
+
+body .jobs-panel .job-main .part-1 {
+    text-align: right;
+    position: relative;
+    opacity: 0
+}
+
+body .jobs-panel .job-main .part-2 {
+    opacity: 0
+}
+
+body .jobs-panel .job-main .part-1 .job-detail {
+    position: absolute;
+    right: 0;
+    text-align: left
+}
+
+body .jobs-panel .job-main .row .i-point {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #e4393c
+}
+
+body .jobs-panel .job-main .row .part-img {
+    padding: 0 100px;
+    position: relative
+}
+
+body .jobs-panel .job-main .part-word strong {
+    font-size: 24px;
+    font-weight: bolder
+}
+
+.jobs-panel .job-main .row .part-word {
+    padding: 10px;
+    margin-top: 30px
+}
+
+.jobs-panel .job-main .row .part-word .job-detail {
+    width: 55%;
+    padding: 10px
+}
+
+.jobs-panel .job-main .row .part-word dd {
+    font-size: 16px;
+    padding: 10px 0 5px 5px
+}
+
+.jobs-panel .job-main .row .part-word dt {
+    font-size: 14px;
+    padding: 5px 0 5px 15px;
+    line-height: 1.5em
+}
+
+.jobs-panel .job-main .row .employ {
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    background-color: RGB(140, 206, 235);
+    text-align: center;
+    padding: 30px 10px;
+    line-height: 1.5em;
+    margin: 50px auto 20px;
+    position: relative
+}
+
+.jobs-panel .job-main .row .employ strong {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px 0 15px
+}
+
+.jobs-panel .job-main .row .employ p {
+    margin-top: 10px
+}
+
+.job-box .center-box {
+    height: 440px
+}
+
+.job02,
+.job04 {
+    background-color: #eef4fe
+}
+
+.job-info {
+    width: 40%
+}
+
+.job01 .job-info,
+.job02 .job-info,
+.job03 .job-info {
+    margin-top: 108px
+}
+
+.job04 .job-info,
+.job05 .job-info {
+    margin-top: 68px
+}
+
+.job-left {
+    float: left;
+    margin-left: 5%;
+    opacity: 0
+}
+
+.job-right {
+    float: right;
+    margin-right: 5%;
+    opacity: 0
+}
+
+.job-info dl {
+    margin-bottom: 20px
+}
+
+.job-info dl dt {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #323232
+}
+
+.job-info dl dd {
+    font-size: 14px;
+    color: #909090;
+    line-height: 20px
+}
