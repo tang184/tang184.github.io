@@ -180,10 +180,6 @@
 
 
 
-
-
-
-
 <script type="text/javascript" src="assets/js-core/jquery-core.js"></script>
 <script type="text/javascript">
     $(window).load(function(){
@@ -239,7 +235,7 @@
 <!-- Navigation -->
 
 
-<body>
+<body ng-app="myResumeApp" ng-controller="personCtrl">
     <div id="loading">
     <div class="spinner">
         <div class="bounce1"></div>
@@ -247,62 +243,234 @@
         <div class="bounce3"></div>
     </div>
     </div>
-
-    <div class="hero-box full-bg-4 font-inverse" style="height:600px">
-    <div class="container">
-        <br>
-        <br>
-        <br>
-        <h1 class="hero-heading wow fadeInDown" data-wow-duration="0.6s" style="color:white">Hi! My name is <h1 style="color:yellow">Juncheng Tang.</div></h1>
-        <br>
-        <p class="hero-text wow bounceInUp" data-wow-duration="0.9s" data-wow-delay="0.2s" style="color:white">Welcome to my personal website and view my profiles.</p>
-    </div>
-    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="panel">
+            <div class="panel-body">
+                <h3 class="title-hero">
+                    My Resume
+                </h3>
+                <div class="example-box-wrapper">
+                    <ul class="list-group row list-group-icons">
+                        <li class="col-md-3">
+                            <a href="#" ng-click="toggle()" class="list-group-item">
+                                <i class="glyph-icon icon-briefcase"></i>
+                                Work Experience
+                            </a>
+                        </li>
+                        <li class="col-md-3">
+                            <a href="#" ng-click="toggle1()" class="list-group-item">
+                                <i class="glyph-icon font-red icon-bullhorn"></i>
+                                Events and Organizations
+                            </a>
+                        </li>
+                        <li class="col-md-3">
+                            <a href="#" ng-click="toggle2()" class="list-group-item">
+                                <i class="glyph-icon font-primary icon-code"></i>
+                                Skills and Special Experiences
+                            </a>
+                        </li>
+                        <li class="col-md-3">
+                            <a href="#" ng-click="toggle3()" class="list-group-item">
+                                <i class="glyph-icon font-blue-alt icon-desktop"></i>
+                                Project Demos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
 
     
     <div class= "container features-tour-box">
-        <div class="content-section-a">
-               <div class="container features-tour-box">
+        <div ng-show="myVar1">
+            <div class="content-section-a">
+                <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
-                            
-                            <img class="img-responsive" src="img/tang.jpg" alt="">
-                        </div>
-                        <div class="col-lg-6 col-lg-push-2 col-md-7 col-sm-6 col-xs-12">
-                            <div class="row"></div>
+                        <div class="col-lg-5 col-sm-6">
+                            <div class="clearfix"></div>
                             <br/>
-                            <ul>
-                                <li style="font-size: 20px;">
-                                    <i class="glyph-icon icon-dot-circle-o font-green"></i>
-                                    Name: Juncheng Tang
-                                </li>
-                                <li style="font-size: 20px;">
-                                    <i class="glyph-icon icon-dot-circle-o font-green"></i>
-                                    Age: 20
-                                </li>
-                                <li style="font-size: 20px;">
-                                    <i class="glyph-icon icon-dot-circle-o font-green"></i>
-                                    Nationality: Chinese
-                                </li>
-                                <li style="font-size: 20px;">
-                                    <i class="glyph-icon icon-dot-circle-o font-green"></i>
-                                    University: Purdue University
-                                </li>
-                                <li style="font-size: 20px;">
-                                    <i class="glyph-icon icon-dot-circle-o font-green"></i>
-                                    Major: Computer Science; Applied Statistics
-                                </li>
-                                <li style="font-size: 20px;">
-                                    <i class="glyph-icon icon-dot-circle-o font-green"></i>
-                                    Class Standing: Junior
-                                </li>
-                            </ul>
+                            <br/>
+                            <br/>
+                            <h2 class="section-heading">混合云应用管理</h2>
+                            <h4 class="section-subheading"> 统一管理混合云应用的完整生命周期</h4>
+                            <div class="lead">
+                                <ul>
+                                    <li>支持vSphere、openStack、容器和阿里云等主流平台</li>
+                                    <li>支持应用跨云迁移</li>
+                                    <li>开发的平台，与企业现有IT、流程完美集成</li>
+                                    <li>云平台中立，避免云锁定</li>
+                                </ul>
+                            </div>
                         </div>
-                        
+                        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                            <img class="img-responsive" src="img/logo1.png" alt="">
+                        </div>
                     </div>
                 </div>
+            </div>
         </div>
+        <div ng-show="myVar2">
+            <div class="content-section-a">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-sm-6">
+                            <div class="clearfix"></div>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <h2 class="section-heading">混合云应用管理</h2>
+                            <h4 class="section-subheading"> 统一管理混合云应用的完整生命周期</h4>
+                            <div class="lead">
+                                <ul>
+                                    <li>支持vSphere、openStack、容器和阿里云等主流平台</li>
+                                    <li>支持应用跨云迁移</li>
+                                    <li>开发的平台，与企业现有IT、流程完美集成</li>
+                                    <li>云平台中立，避免云锁定</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                            <img class="img-responsive" src="img/logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-show="myVar3">
+            <div class="content-section-a">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-sm-6">
+                            <div class="clearfix"></div>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <h2 class="section-heading">混合云应用管理</h2>
+                            <h4 class="section-subheading"> 统一管理混合云应用的完整生命周期</h4>
+                            <div class="lead">
+                                <ul>
+                                    <li>支持vSphere、openStack、容器和阿里云等主流平台</li>
+                                    <li>支持应用跨云迁移</li>
+                                    <li>开发的平台，与企业现有IT、流程完美集成</li>
+                                    <li>云平台中立，避免云锁定</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                            <img class="img-responsive" src="img/logo1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-show="myVar4">
+            <div class="content-section-a">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6">
+                        <div class="clearfix"></div>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <h2 class="section-heading">混合云应用管理</h2>
+                        <h4 class="section-subheading"> 统一管理混合云应用的完整生命周期</h4>
+                        <div class="lead">
+                            <ul>
+                                <li>支持vSphere、openStack、容器和阿里云等主流平台</li>
+                                <li>支持应用跨云迁移</li>
+                                <li>开发的平台，与企业现有IT、流程完美集成</li>
+                                <li>云平台中立，避免云锁定</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <img class="img-responsive" src="img/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-section-b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                        <div class="clearfix"></div>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <h2 class="section-heading">所见即所得的应用蓝图建模</h2>
+                        <h4 class="section-subheading"> 基于标准的建模语言</h4>
+                        <div class="lead">
+                            <ul>
+                                <li>支持对任意应用建模</li>
+                                <li>可自定义策略</li>
+                                <li>多层、多节点应用</li>
+                                <li>计算、网络、存储统一建模</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                        <img class="img-responsive" src="img/logo1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-section-a">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6">
+                        <div class="clearfix"></div>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <h2 class="section-heading">从应用到网络的全栈自动化</h2>
+                        <h4 class="section-subheading">应用全生命周期的自动化编排与管理</h4>
+                        <div class="lead">
+                            <ul>
+                                <li>简化多层应用部署</li>
+                                <li>集成虚拟化网络</li>
+                                <li>智能网络安全组</li>
+                                <li>基于策略的分布式防火墙和负载均衡器</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <img class="img-responsive" src="img/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-section-b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                        <div class="clearfix"></div>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <h2 class="section-heading">IT自助服务</h2>
+                        <h4 class="section-subheading"> 自助获取IT资源，提高业务敏捷性</h4>
+                        <div class="lead">
+                            <ul>
+                                <li>一键部署或回收应用及所用云资源</li>
+                                <li>完整的应用生命周期管理</li>
+                                <li>应用程序到基础设施的360°监控</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                        <img class="img-responsive" src="img/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
     </div>
 
   
@@ -401,6 +569,47 @@ app.controller('personCtrl', function($scope) {
 
     $scope.leave = function() {
         $scope.myVar = false;
+    };
+    
+});
+</script>
+
+
+<script>
+var app = angular.module('myResumeApp', []);
+app.controller('personCtrl', function($scope) {
+    
+    $scope.myVar1 = true;
+    $scope.myVar2 = false;
+    $scope.myVar3 = false;
+    $scope.myVar4 = false;
+
+    $scope.toggle = function() {
+        $scope.myVar1 = true;
+        $scope.myVar2 = false;
+        $scope.myVar3 = false;
+        $scope.myVar4 = false;
+    };
+
+    $scope.toggle1 = function() {
+        $scope.myVar1 = false;
+        $scope.myVar2 = true;
+        $scope.myVar3 = false;
+        $scope.myVar4 = false;
+    };
+
+    $scope.toggle2 = function() {
+        $scope.myVar1 = false;
+        $scope.myVar2 = false;
+        $scope.myVar3 = true;
+        $scope.myVar4 = false;
+    };
+
+    $scope.toggle3 = function() {
+        $scope.myVar1 = false;
+        $scope.myVar2 = false;
+        $scope.myVar3 = false;
+        $scope.myVar4 = true;
     };
     
 });
