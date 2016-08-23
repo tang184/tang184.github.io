@@ -678,3 +678,20 @@ a,
     color: #59606c;
     border-color: #92A0B3;
 }
+
+
+.demo-icon-1 {
+    font-size: 32px;
+    line-height: 50px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    text-align: center;
+    
+}
+.demo-icon-1:hover {
+    color: yellow !important;
+    border: 1px solid rgba(220, 233, 255, 0.54);
+    border-radius: 30px;
+}

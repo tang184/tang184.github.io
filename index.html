@@ -9,8 +9,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="上海骞云信息科技有限公司">
-    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
     <title>Juncheng Tang Personal Website</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -176,6 +175,8 @@
     <script type="text/javascript" src="assets/js-core/transition.js"></script>
     <script type="text/javascript" src="assets/js-core/modernizr.js"></script>
     <script type="text/javascript" src="assets/js-core/jquery-cookie.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
 
 
 
@@ -292,6 +293,10 @@
                                     <i class="glyph-icon icon-dot-circle-o font-green"></i>
                                     Major: Computer Science; Applied Statistics
                                 </li>
+                                <li style="font-size: 20px;">
+                                    <i class="glyph-icon icon-dot-circle-o font-green"></i>
+                                    Class Standing: Junior
+                                </li>
                             </ul>
                         </div>
                         
@@ -302,10 +307,23 @@
 
   
 
-<div class="main-footer bg-gradient-4 clearfix">
+<div class="main-footer bg-gradient-4 clearfix" ng-app="myApp" ng-controller="personCtrl">
     <div class="container clearfix">
-             <div class="col-lg-push-1 col-lg-5 col-md-push-1 col-sm-6 col-sm-push-1 col-xs-12 col-xs-push-4">
-                        
+             <div class="col-lg-5 col-sm-6 col-xs-12">
+
+            <i class="glyph-icon tooltip-button demo-icon-1 icon-wechat font-white" title="wechat" ng-mouseover="toggle()" ng-mouseleave="leave()"></i>
+            <a href="http://weibo.com/u/2234862987?profile_ftype=1&is_all=1#_0"><i class="glyph-icon tooltip-button demo-icon-1 icon-weibo font-white" title="weibo">
+                </i></a>
+            <a href="https://www.linkedin.com/in/juncheng-tang-957134a3?trk=nav_responsive_tab_profile_pic"><i class="glyph-icon tooltip-button demo-icon-1 icon-linkedin font-white" title="linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100004285692675"><i class="glyph-icon tooltip-button demo-icon-1 icon-facebook font-white" title="facebook"></i></a>
+            <a href="https://twitter.com/juncheng_tang"><i class="glyph-icon tooltip-button demo-icon-1 icon-twitter font-white" title="twitter"></i></a>
+
+
+            <img ng-show="myVar" style="height:150px" src="img/erweima.png"></img>
+
+
+
+
             </div>
             
         
@@ -328,6 +346,7 @@
                             <li>
                                 <p class="ptitle">Zip Code: <a target="_blank" style="color:rgba(255, 255, 255, 0.80);">47906-3901</a></p>
                             </li>
+                            <div class="divider"></div>
                         </ul>
                         </ul>
                     </div>
@@ -335,13 +354,13 @@
     <div class="footer-pane">
         <div class="container clearfix">
             <div class="col-lg-push-1 col-lg-5 col-md-push-1 col-sm-6 col-sm-push-1 col-xs-12 col-xs-push-2">
-            <div class="logo">2016 Copyright @ Juncheng Tang</div>
+            <div class="logo">Written and maintained by Juncheng Tang</div>
         </div>
         <div class="col-lg-5 col-lg-push-1 col-lg-offset-2 col-md-5 col-md-push-0 col-sm-6 col-xs-12 col-xs-push-2 footer-nav-bottom">
-                <a href="index.html" title="首页">Index</a>
-                <a href="index.html#introductions" title="产品">My Resume</a>
-                <a href="prices" title="定价">Photo Gallery</a>
-                <a href="jobs" title="招贤纳才">About Myself</a>
+                <a href="index.html" title="Index">Index</a>
+                <a href="index.html#introductions" title="My Resume">My Resume</a>
+                <a href="prices" title="Photo Gallery">Photo Gallery</a>
+                <a href="jobs" title="About Myself">About Myself</a>
             </div>
         </div>
     </div>
@@ -370,7 +389,22 @@
 
 <script type="text/javascript" src="assets/themes/frontend/layout.js"></script>
 
+<script>
+var app = angular.module('myApp', []);
+app.controller('personCtrl', function($scope) {
+    
+    $scope.myVar = false;
 
+    $scope.toggle = function() {
+        $scope.myVar = true;
+    };
+
+    $scope.leave = function() {
+        $scope.myVar = false;
+    };
+    
+});
+</script>
 
 
 
