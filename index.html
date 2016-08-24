@@ -415,17 +415,19 @@ app.controller('personCtrl', function($scope) {
           xfbml      : true,
           version    : 'v2.7'
         });
+
+        FB.getLoginStatus(function(response) {
+            if (response.status === 'connected') {
+                document.getElementById('status').innerHTML = 'We are connected.';
+            } else if (response.status === 'not_authorized') {
+                document.getElementById('status').innerHTML = 'We are not login.';
+            } else {
+                document.getElementById('status').innerHTML = 'We are not logged into Facebook';
+            }
+        });
     };
 
-    FB.getLoginStatus(function(response) {
-        if (response.status === 'connected') {
-            document.getElementById('status').innerHTML = 'We are connected.';
-        } else if (response.status === 'not_authorized') {
-            document.getElementById('status').innerHTML = 'We are not login.';
-        } else {
-            document.getElementById('status').innerHTML = 'We are not logged into Facebook';
-        }
-    });
+    
 
     (function(d, s, id){
         var js, fjs = d.getElementsByTagName(s)[0];
