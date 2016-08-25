@@ -165,9 +165,11 @@
 <link rel="stylesheet" type="text/css" href="assets/helpers/responsive-elements.css">
 <link rel="stylesheet" type="text/css" href="assets/helpers/frontend-responsive.css">
 
+
     <!-- JS Core -->
 
     <script type="text/javascript" src="assets/js-core/jquery-core.js"></script>
+    <script type="text/javascript" src="js/ui-bootstrap-tpls-2.1.2.min.js"></script>
     <script type="text/javascript" src="assets/js-core/jquery-ui-core.js"></script>
     <script type="text/javascript" src="assets/js-core/jquery-ui-widget.js"></script>
     <script type="text/javascript" src="assets/js-core/jquery-ui-mouse.js"></script>
@@ -177,6 +179,8 @@
     <script type="text/javascript" src="assets/js-core/jquery-cookie.js"></script>
     <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
     <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="assets/widgets/charts/sparklines/sparklines.js"></script>
+    <script type="text/javascript" src="assets/widgets/charts/sparklines/sparklines-demo.js"></script>
 
 
 
@@ -255,25 +259,25 @@
                 <div class="example-box-wrapper">
                     <ul class="list-group row list-group-icons">
                         <li class="col-md-3">
-                            <a href="#" ng-click="toggle()" class="list-group-item" ng-class="{'active' : myVar1}">
+                            <a href="#" ng-click="toggle()" class="list-group-item" ng-class="{'active' : resumePanel1}">
                                 <i class="glyph-icon icon-briefcase"></i>
                                 Work Experience
                             </a>
                         </li>
                         <li class="col-md-3">
-                            <a href="#" ng-click="toggle1()" class="list-group-item" ng-class="{'active' : myVar2}">
+                            <a href="#" ng-click="toggle1()" class="list-group-item" ng-class="{'active' : resumePanel2}">
                                 <i class="glyph-icon font-red icon-bullhorn"></i>
                                 Leadership Experiences
                             </a>
                         </li>
                         <li class="col-md-3">
-                            <a href="#" ng-click="toggle2()" class="list-group-item" ng-class="{'active' : myVar3}">
+                            <a href="#" ng-click="toggle2()" class="list-group-item" ng-class="{'active' : resumePanel3}">
                                 <i class="glyph-icon font-primary icon-code"></i>
                                 Skills and Special Experiences
                             </a>
                         </li>
                         <li class="col-md-3">
-                            <a href="#" ng-click="toggle3()" class="list-group-item" ng-class="{'active' : myVar4}">
+                            <a href="#" ng-click="toggle3()" class="list-group-item" ng-class="{'active' : resumePanel4}">
                                 <i class="glyph-icon font-blue-alt icon-desktop"></i>
                                 Project Demos
                             </a>
@@ -286,7 +290,7 @@
 
     
     <div class= "container features-tour-box" style="margin:0">
-        <div ng-show="myVar1">
+        <div ng-show="resumePanel1">
             <div class="content-section-b" style="width:108%">
                     <div class="row">
                         <div class="col-lg-4 col-lg-push-1 col-sm-6">
@@ -391,7 +395,7 @@
             </div>
 
         </div>
-        <div ng-show="myVar2">
+        <div ng-show="resumePanel2">
             <div class="content-section-b" style="width:108%">
                     <div class="row">
                         <div class="col-lg-4 col-lg-push-1 col-sm-6">
@@ -420,6 +424,10 @@
                     <div class="row">
                         <div class="col-lg-4 col-lg-offset-1 col-sm-6">
                             <img class="img-responsive"  style="max-height:350px; padding-top:20px" src="img/pucssa.png" alt="">
+                            <br>
+                            <br>
+                            <br>
+                            <img class="img-responsive"  style="max-height:350px; padding-top:20px" src="img/prom.png" alt="">
                         </div>
                         <div class="col-lg-5 col-lg-push-1 col-sm-6">
                             <div class="clearfix"></div>
@@ -456,35 +464,77 @@
                 </div>
             </div>
             
+            
         </div>
-        <div ng-show="myVar3">
-            <div class="content-section-a">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5 col-sm-6">
-                            <div class="clearfix"></div>
-                            <br/>
-                            <br/>
-                            <br/>
-                            <h2 class="section-heading">混合云应用管理</h2>
-                            <h4 class="section-subheading"> 统一管理混合云应用的完整生命周期</h4>
-                            <div class="lead">
-                                <ul>
-                                    <li>支持vSphere、openStack、容器和阿里云等主流平台</li>
-                                    <li>支持应用跨云迁移</li>
-                                    <li>开发的平台，与企业现有IT、流程完美集成</li>
-                                    <li>云平台中立，避免云锁定</li>
-                                </ul>
-                            </div>
+        <div ng-show="resumePanel3">
+            <div class="panel-layout">
+                <div class="panel-box">
+                    <div class="panel-content pad0A bg-white">
+                        <div class="meta-box meta-box-offset">
+                            <img src="assets/image-resources/gravatar.jpg" alt="" class="meta-image img-bordered img-circle">
+                            <h3 class="meta-heading font-size-16">Alex Rosenberg</h3>
+                            <h4 class="meta-subheading font-size-13 font-gray">Ultimate backend programmer</h4>
                         </div>
-                        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                            <img class="img-responsive" src="img/logo1.png" alt="">
+                        <table class="table mrg0B mrg10T">
+                            <tbody>
+                            <tr>
+                                <td class="text-left">
+                                    <b>UI design</b>
+                                </td>
+                                <td style="width: 50%;">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                            <span class="sr-only">40% Complete (success)</span>
                         </div>
+                    </div>
+                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">
+                                    <b>Web development</b>
+                                </td>
+                                <td style="width: 50%;">
+                                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                            <span class="sr-only">20% Complete</span>
+                        </div>
+                    </div>
+                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">
+                                    <b>CSS skills</b>
+                                </td>
+                                <td style="width: 50%;">
+                                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                            <span class="sr-only">60% Complete (warning)</span>
+                        </div>
+                    </div>
+                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">
+                                    <b>Photoshop</b>
+                                </td>
+                                <td style="width: 50%;">
+                                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                            <span class="sr-only">80% Complete (danger)</span>
+                        </div>
+                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
-        <div ng-show="myVar4">
+        <div ng-show="resumePanel4">
             <div class="content-section-a">
             <div class="container">
                 <div class="row">
@@ -677,14 +727,14 @@
 
 
 
-<script>
+<script type="text/javascript">
 var app = angular.module('myResumeApp', []);
 app.controller('personCtrl', function($scope) {
     
-    $scope.myVar1 = true;
-    $scope.myVar2 = false;
-    $scope.myVar3 = false;
-    $scope.myVar4 = false;
+    $scope.resumePanel1 = true;
+    $scope.resumePanel2 = false;
+    $scope.resumePanel3 = false;
+    $scope.resumePanel4 = false;
 
     $scope.wechat = false;
 
@@ -698,31 +748,31 @@ app.controller('personCtrl', function($scope) {
 
 
     $scope.toggle = function() {
-        $scope.myVar1 = true;
-        $scope.myVar2 = false;
-        $scope.myVar3 = false;
-        $scope.myVar4 = false;
+        $scope.resumePanel1 = true;
+        $scope.resumePanel2 = false;
+        $scope.resumePanel3 = false;
+        $scope.resumePanel4 = false;
     };
 
     $scope.toggle1 = function() {
-        $scope.myVar1 = false;
-        $scope.myVar2 = true;
-        $scope.myVar3 = false;
-        $scope.myVar4 = false;
+        $scope.resumePanel1 = false;
+        $scope.resumePanel2 = true;
+        $scope.resumePanel3 = false;
+        $scope.resumePanel4 = false;
     };
 
     $scope.toggle2 = function() {
-        $scope.myVar1 = false;
-        $scope.myVar2 = false;
-        $scope.myVar3 = true;
-        $scope.myVar4 = false;
+        $scope.resumePanel1 = false;
+        $scope.resumePanel2 = false;
+        $scope.resumePanel3 = true;
+        $scope.resumePanel4 = false;
     };
 
     $scope.toggle3 = function() {
-        $scope.myVar1 = false;
-        $scope.myVar2 = false;
-        $scope.myVar3 = false;
-        $scope.myVar4 = true;
+        $scope.resumePanel1 = false;
+        $scope.resumePanel2 = false;
+        $scope.resumePanel3 = false;
+        $scope.resumePanel4 = true;
     };
     
 });
@@ -732,5 +782,81 @@ app.controller('personCtrl', function($scope) {
 
 
 </body>
+
+
+<script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
+
+<!-- Bootstrap Dropdown -->
+
+<!-- <script type="text/javascript" src="assets/widgets/dropdown/dropdown.js"></script> -->
+
+<!-- Bootstrap Tooltip -->
+
+<!-- <script type="text/javascript" src="assets/widgets/tooltip/tooltip.js"></script> -->
+
+<!-- Bootstrap Popover -->
+
+<!-- <script type="text/javascript" src="assets/widgets/popover/popover.js"></script> -->
+
+<!-- Bootstrap Progress Bar -->
+
+<script type="text/javascript" src="assets/widgets/progressbar/progressbar.js"></script>
+
+<!-- Bootstrap Buttons -->
+
+<!-- <script type="text/javascript" src="assets/widgets/button/button.js"></script> -->
+
+<!-- Bootstrap Collapse -->
+
+<!-- <script type="text/javascript" src="assets/widgets/collapse/collapse.js"></script> -->
+
+<!-- Superclick -->
+
+<script type="text/javascript" src="assets/widgets/superclick/superclick.js"></script>
+
+<!-- Input switch alternate -->
+
+<script type="text/javascript" src="assets/widgets/input-switch/inputswitch-alt.js"></script>
+
+<!-- Slim scroll -->
+
+<script type="text/javascript" src="assets/widgets/slimscroll/slimscroll.js"></script>
+
+<!-- Slidebars -->
+
+<script type="text/javascript" src="assets/widgets/slidebars/slidebars.js"></script>
+<script type="text/javascript" src="assets/widgets/slidebars/slidebars-demo.js"></script>
+
+<!-- PieGage -->
+
+<script type="text/javascript" src="assets/widgets/charts/piegage/piegage.js"></script>
+<script type="text/javascript" src="assets/widgets/charts/piegage/piegage-demo.js"></script>
+
+<!-- Screenfull -->
+
+<script type="text/javascript" src="assets/widgets/screenfull/screenfull.js"></script>
+
+<!-- Content box -->
+
+<script type="text/javascript" src="assets/widgets/content-box/contentbox.js"></script>
+
+<!-- Overlay -->
+
+<script type="text/javascript" src="assets/widgets/overlay/overlay.js"></script>
+
+<!-- Widgets init for demo -->
+
+<script type="text/javascript" src="assets/js-init/widgets-init.js"></script>
+
+<!-- Theme layout -->
+
+<script type="text/javascript" src="assets/themes/admin/layout.js"></script>
+
+<!-- Theme switcher -->
+
+<script type="text/javascript" src="assets/widgets/theme-switcher/themeswitcher.js"></script>
+
+
+
 
 </html>
