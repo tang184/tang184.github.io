@@ -285,33 +285,83 @@
 
 
     
-    <div class= "container features-tour-box">
+    <div class= "container features-tour-box" style="margin:0">
         <div ng-show="myVar1">
-            <div class="content-section-a">
-                <div class="container">
+            <div class="content-section-b" style="width:108%">
                     <div class="row">
-                        <div class="col-lg-5 col-sm-6">
+                        <div class="col-lg-4 col-lg-push-1 col-sm-6">
                             <div class="clearfix"></div>
                             <br/>
                             <br/>
                             <br/>
-                            <h2 class="section-heading">Shanghai Cloudchef Information Technology co. </h2>
-                            <h4 class="section-subheading">Internship: Front-end developer</h4>
-                            <div class="lead">
+                            <h2 class="section-heading" style="font-weight: 700; font-size:35px; font-family: inherit;">Shanghai Cloudchef Information Technology co. </h2>
+                            <h4 class="section-subheading" style="font-size: 20px;
+  color: #1B497C;font-weight:700; font-family: inherit;">Internship: Front-end developer</h4>
+                            <div class="lead" style="color:black">
                                 <ul>
                                     <li>Built static company website with Bootstrap and AngularJS</li>
                                     <li>Created and modified CSS files</li>
                                     <li>Tested and Debugged project front-end Html and JavaScript</li>
-                                    <li>云平台中立，避免云锁定</li>
+                                    <li>Set up and Integrated Gerrit with Jenkins and Gitlab</li>
+                                    <li>Learnt basic concepts of automation deployment of virtual machines</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                            <img class="img-responsive" src="img/cloudchef.png" alt="">
+                            <img class="img-responsive" style="max-height=350px; padding-top:20px" src="img/cloudchef.png" alt="">
                         </div>
+                    </div>
+            </div>
+            <div class="content-section-a" style="width:108%">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-lg-offset-1 col-sm-6">
+                            <img class="img-responsive"  style="max-height=350px; padding-top:20px" src="img/purdue.jpg" alt="">
+                        </div>
+                        <div class="col-lg-5 col-lg-push-1 col-sm-6">
+                            <div class="clearfix"></div>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <h2 class="section-heading" style="font-weight: 700; font-size:35px; font-family: inherit;">Purdue University Ford Dining court  </h2>
+                            <h4 class="section-subheading" style="font-size: 20px;
+  color: #1B497C;font-weight:700; font-family: inherit;">Student Associate</h4>
+                            <div class="lead" style="color:black">
+                                <ul>
+                                    <li>Assisted chefs in preparing for ingredients</li>
+                                    <li>Assisted chefs in making Pho</li>                                    
+                                </ul>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
+
+            <div class="content-section-b" style="width:108%">
+                    <div class="row">
+                        <div class="col-lg-4 col-lg-push-1 col-sm-6">
+                            <div class="clearfix"></div>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <h2 class="section-heading" style="font-weight: 700; font-size:35px; font-family: inherit;">Purdue Bilingual Career Fair </h2>
+                            <h4 class="section-subheading" style="font-size: 20px;
+  color: #1B497C;font-weight:700; font-family: inherit;">Officer/ Coordinator</h4>
+                            <div class="lead" style="color:black">
+                                <ul>
+                                    <li>Collected and created database of all international students</li>
+                                    <li>Published recruitment information for international students</li>
+                                    <li>Decorated the career fair</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                            <img class="img-responsive" style="max-height=350px; padding-top:20px" src="img/pucssa.png" alt="">
+                        </div>
+                    </div>
+            </div>
+
         </div>
         <div ng-show="myVar2">
             <div class="content-section-a">
@@ -475,11 +525,11 @@
 
   
 
-<div class="main-footer bg-gradient-4 clearfix" ng-app="myApp" ng-controller="personCtrl">
+<div class="main-footer bg-gradient-4 clearfix">
     <div class="container clearfix">
              <div class="col-lg-5 col-sm-6 col-xs-12">
 
-            <i class="glyph-icon tooltip-button demo-icon-1 icon-wechat font-white" title="wechat" ng-mouseover="toggle()" ng-mouseleave="leave()"></i>
+            <i class="glyph-icon tooltip-button demo-icon-1 icon-wechat font-white" title="wechat" ng-mouseover="wechattoggle()" ng-mouseleave="wechatleave()"></i>
             <a href="http://weibo.com/u/2234862987?profile_ftype=1&is_all=1#_0"><i class="glyph-icon tooltip-button demo-icon-1 icon-weibo font-white" title="weibo">
                 </i></a>
             <a href="https://www.linkedin.com/in/juncheng-tang-957134a3?trk=nav_responsive_tab_profile_pic"><i class="glyph-icon tooltip-button demo-icon-1 icon-linkedin font-white" title="linkedin"></i></a>
@@ -487,7 +537,7 @@
             <a href="https://twitter.com/juncheng_tang"><i class="glyph-icon tooltip-button demo-icon-1 icon-twitter font-white" title="twitter"></i></a>
 
 
-            <img ng-show="myVar" style="height:150px" src="img/erweima.png"></img>
+            <img ng-show="wechat" style="height:150px" src="img/erweima.png"></img>
 
 
 
@@ -557,22 +607,7 @@
 
 <script type="text/javascript" src="assets/themes/frontend/layout.js"></script>
 
-<script>
-var app = angular.module('myApp', []);
-app.controller('personCtrl', function($scope) {
-    
-    $scope.myVar = false;
 
-    $scope.toggle = function() {
-        $scope.myVar = true;
-    };
-
-    $scope.leave = function() {
-        $scope.myVar = false;
-    };
-    
-});
-</script>
 
 
 <script>
@@ -583,6 +618,17 @@ app.controller('personCtrl', function($scope) {
     $scope.myVar2 = false;
     $scope.myVar3 = false;
     $scope.myVar4 = false;
+
+    $scope.wechat = false;
+
+    $scope.wechatttoggle = function() {
+        $scope.wechat = true;
+    };
+
+    $scope.wechatleave = function() {
+        $scope.wechat = false;
+    };
+
 
     $scope.toggle = function() {
         $scope.myVar1 = true;
